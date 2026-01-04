@@ -1,0 +1,46 @@
+* { box-sizing: border-box; font-family: Inter, sans-serif; }
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+header {
+  padding: 20px;
+  background: #020617;
+  text-align: center;
+  font-size: 24px;
+}
+
+.news {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #38bdf8;
+  cursor: pointer;
+}
